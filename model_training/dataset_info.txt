@@ -1,0 +1,40 @@
+Tomato Leaf Disease Dataset Information
+
+Dataset Source:
+PlantVillage Dataset
+
+Total Classes: 10
+
+Classes:
+1. Bacterial_spot
+2. Early_blight
+3. Late_blight
+4. Leaf_Mold
+5. Septoria_leaf_spot
+6. Spider_mites (Two-spotted spider mite)
+7. Target_Spot
+8. Tomato_Yellow_Leaf_Curl_Virus
+9. Tomato_mosaic_virus
+10. Healthy
+
+Dataset Description:
+This dataset contains images of tomato leaves showing different diseases
+and healthy leaves. The images are used to train a deep learning model
+to classify tomato plant diseases automatically.
+
+Image Size Used For Training:
+224 x 224
+
+Color Format:
+RGB
+
+Model Used:
+MobileNetV2 (Transfer Learning)
+
+Training Split:
+Training: 80%
+Validation: 20%
+
+Goal:
+To build an AI system that can detect tomato leaf diseases from images
+to assist farmers in early diagnosis.
